@@ -1,0 +1,7 @@
+flask==2.3.2
+pandas==2.0.2
+numpy==1.24.3
+scikit-learn==1.2.2
+xgboost==1.7.5
+joblib==1.2.0
+gunicorn==20.1.0
