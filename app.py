@@ -30,9 +30,30 @@ expected_features = [
 @app.route('/')
 def home():
     return "✅ Crop Prediction API is running!"
-
+    
 @app.route('/predict', methods=['POST'])
 def predict():
+    data = request.json
+    try:
+        # Validate input data
+        if not all(feature in data for feature in expected_features):
+            missing = [feature for feature in expected_features if feature not in data]
+            return jsonify({"error": f"Missing features: {', '.join(missing)}"}), 400
+
+        # Convert to DataFrame
+        input_df = pd.DataFrame([data])
+
+        # Ensure correct column order
+        input_df = input_df[expected_features]
+
+        # Predict
+        prediction = model.predict(input_df)[0]
+
+        return jsonify({"predicted_crop": prediction})
+
+    except Exception as e:
+        return jsonify({"error": f"An error occurred: {str(e)}"}), 400
+
     data = request.json
     try:
         # Validate input data
