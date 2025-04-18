@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import joblib
-import numpy as np
 import pandas as pd
 import os
 
@@ -9,9 +8,13 @@ app = Flask(__name__)
 # Get the directory of the current file
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Load model and encoders with proper paths
-model = joblib.load(os.path.join(base_dir, "best_crop_model.pkl"))
-label_encoders = joblib.load(os.path.join(base_dir, "label_encoders.pkl"))
+# Load the trained model and label encoders
+try:
+    model = joblib.load(os.path.join(base_dir, "best_crop_model.pkl"))
+    label_encoders = joblib.load(os.path.join(base_dir, "label_encoders.pkl"))
+except Exception as e:
+    print(f"Error loading model or label encoders: {e}")
+    exit(1)
 
 # Expected features in the same order as training
 expected_features = [
@@ -31,21 +34,32 @@ def home():
 def predict():
     data = request.json
     try:
+        # Validate input data
+        if not all(feature in data for feature in expected_features):
+            missing_features = [feature for feature in expected_features if feature not in data]
+            return jsonify({"error": f"Missing features: {', '.join(missing_features)}"}), 400
+
+        # Convert input data to DataFrame
         input_df = pd.DataFrame([data])
         
-        # Encode categorical features
+        # Encode categorical features using label encoders
         for col in label_encoders:
             if col in input_df.columns:
                 input_df[col] = label_encoders[col].transform(input_df[col])
         
+        # Ensure the input data matches the expected order of features
         input_df = input_df[expected_features]
         
+        # Make the prediction
         prediction = model.predict(input_df)[0]
+        
+        # Decode the predicted label (crop)
         predicted_crop = label_encoders['crop'].inverse_transform([prediction])[0]
+        
         return jsonify({"predicted_crop": predicted_crop})
     
     except Exception as e:
-        return jsonify({"error": str(e)}), 400
+        return jsonify({"error": f"An error occurred: {str(e)}"}), 400
 
 if __name__ == "__main__":
     # Use PORT environment variable if available (for Render)
