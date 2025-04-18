@@ -16,14 +16,15 @@ except Exception as e:
     print(f"Error loading model or label encoders: {e}")
     exit(1)
 
-# Expected features in the same order as training
+# Updated expected features as per the model
 expected_features = [
-    "soil_type", "soil_ph", "N", "P", "K", "Fe", "Zn", "Cu", "Mn", "organic_matter",
-    "moisture_capacity", "salinity", "drainage", "temperature", "season", "rainfall",
-    "humidity", "sunlight_hours", "frost_risk", "wind_speed", "gdd", "altitude",
-    "slope", "water_body", "flood_risk", "variety", "growth_duration", "water_need",
-    "pest_risk", "rotation_crop", "irrigation", "fertilizer", "market_demand",
-    "price", "labor"
+    'Soil_Type', 'Soil_pH', 'N_Value', 'P_Value', 'K_Value', 'Fe_Value', 'Zn_Value',
+    'Cu_Value', 'Mn_Value', 'Organic_Matter', 'Soil_Moisture', 'Soil_Salinity',
+    'Soil_Drainage', 'Temperature', 'Season', 'Rainfall', 'Humidity', 'Sunlight',
+    'Frost_Risk', 'Wind_Speed', 'Altitude', 'Slope', 'Water_Proximity',
+    'Flood_Risk', 'Crop_Variety', 'Growth_Duration', 'Water_Requirements',
+    'Pest_Susceptibility', 'Irrigation_Method', 'Fertilizer_Use',
+    'Market_Demand', 'Market_Price', 'Labor_Availability'
 ]
 
 @app.route('/')
@@ -36,32 +37,31 @@ def predict():
     try:
         # Validate input data
         if not all(feature in data for feature in expected_features):
-            missing_features = [feature for feature in expected_features if feature not in data]
-            return jsonify({"error": f"Missing features: {', '.join(missing_features)}"}), 400
+            missing = [feature for feature in expected_features if feature not in data]
+            return jsonify({"error": f"Missing features: {', '.join(missing)}"}), 400
 
-        # Convert input data to DataFrame
+        # Convert to DataFrame
         input_df = pd.DataFrame([data])
-        
-        # Encode categorical features using label encoders
+
+        # Apply label encoding where needed
         for col in label_encoders:
             if col in input_df.columns:
                 input_df[col] = label_encoders[col].transform(input_df[col])
-        
-        # Ensure the input data matches the expected order of features
+
+        # Ensure correct order
         input_df = input_df[expected_features]
-        
-        # Make the prediction
+
+        # Predict
         prediction = model.predict(input_df)[0]
-        
-        # Decode the predicted label (crop)
+
+        # Decode prediction
         predicted_crop = label_encoders['crop'].inverse_transform([prediction])[0]
-        
+
         return jsonify({"predicted_crop": predicted_crop})
-    
+
     except Exception as e:
         return jsonify({"error": f"An error occurred: {str(e)}"}), 400
 
 if __name__ == "__main__":
-    # Use PORT environment variable if available (for Render)
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
