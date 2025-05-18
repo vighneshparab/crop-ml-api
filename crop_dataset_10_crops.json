@@ -1,0 +1,2662 @@
+[
+  {
+    "Crop Name": "Wheat",
+    "Soil Factors": {
+      "Soil Type": [
+        "Peaty",
+        "Sandy",
+        "Black Soil",
+        "Red Soil",
+        "Loamy",
+        "Silty",
+        "Sandy Loam",
+        "Chalky",
+        "Clayey",
+        "Silt Loam"
+      ],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 80,
+          "max": 120
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 40,
+          "max": 60
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.1,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.5,
+        "max": 3.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Moderate", "Poor", "Excellent", "Good", "Well-drained"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 20,
+        "min": 10,
+        "max": 25
+      },
+      "Seasons": ["Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 300,
+        "max": 900
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 9
+      },
+      "Frost Risk": ["Moderate", "None", "High", "Low", "Severe"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 200,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": [
+        "Ponds",
+        "None",
+        "Canals",
+        "Rivers",
+        "Groundwater",
+        "Lakes"
+      ],
+      "Flood Risk": ["Moderate", "Low", "None", "High"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": [
+        "Hybrid",
+        "Drought-tolerant",
+        "High-yield",
+        "GMO",
+        "Indigenous"
+      ],
+      "Growth Duration (days)": {
+        "min": 120,
+        "max": 150
+      },
+      "Water Requirements": ["Medium", "Low", "High"],
+      "Pest & Disease Susceptibility": ["Moderate", "Low", "Very High", "High"],
+      "Crop Rotation Compatibility": [
+        "Vegetables",
+        "Legumes",
+        "Cereals",
+        "Oilseeds",
+        "Pulses",
+        "Millets"
+      ]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": [
+        "Sprinkler",
+        "Manual",
+        "Rainfed",
+        "Flood",
+        "Drip",
+        "Surface"
+      ],
+      "Fertilizer Use": [
+        "Biofertilizer",
+        "Vermicompost",
+        "Inorganic",
+        "Organic"
+      ]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["International", "Local", "Export", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1800,
+        "max": 2200
+      },
+      "Labor Availability": ["Machine", "Mixed", "Manual"]
+    }
+  },
+  {
+    "Crop Name": "Rice",
+    "Soil Factors": {
+      "Soil Type": [
+        "Peaty",
+        "Sandy",
+        "Black Soil",
+        "Red Soil",
+        "Loamy",
+        "Silty",
+        "Sandy Loam",
+        "Chalky",
+        "Clayey",
+        "Silt Loam"
+      ],
+      "Soil pH": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 100,
+          "max": 150
+        },
+        "P": {
+          "min": 50,
+          "max": 70
+        },
+        "K": {
+          "min": 50,
+          "max": 70
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 5,
+          "max": 10
+        },
+        "Zn": {
+          "min": 2,
+          "max": 5
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 3,
+          "max": 6
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 25,
+        "max": 35
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.2,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Moderate", "Poor", "Excellent", "Good", "Well-drained"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif", "Summer"],
+      "Rainfall (mm/year)": {
+        "min": 1000,
+        "max": 2000
+      },
+      "Humidity (%)": {
+        "min": 70,
+        "max": 90
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 5,
+        "max": 8
+      },
+      "Frost Risk": ["Moderate", "None", "High", "Low", "Severe"],
+      "Wind Speed (km/h)": {
+        "min": 10,
+        "max": 20
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1600,
+        "max": 2400
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": [
+        "Ponds",
+        "None",
+        "Canals",
+        "Rivers",
+        "Groundwater",
+        "Lakes"
+      ],
+      "Flood Risk": ["Moderate", "Low", "None", "High"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": [
+        "Hybrid",
+        "Drought-tolerant",
+        "High-yield",
+        "GMO",
+        "Indigenous"
+      ],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 150
+      },
+      "Water Requirements": ["Medium", "Low", "High"],
+      "Pest & Disease Susceptibility": ["Moderate", "Low", "Very High", "High"],
+      "Crop Rotation Compatibility": [
+        "Vegetables",
+        "Legumes",
+        "Cereals",
+        "Oilseeds",
+        "Pulses",
+        "Millets"
+      ]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": [
+        "Sprinkler",
+        "Manual",
+        "Rainfed",
+        "Flood",
+        "Drip",
+        "Surface"
+      ],
+      "Fertilizer Use": [
+        "Biofertilizer",
+        "Vermicompost",
+        "Organic",
+        "Inorganic"
+      ]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["International", "Local", "Export", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1500,
+        "max": 2200
+      },
+      "Labor Availability": ["Machine", "Mixed", "Manual"]
+    }
+  },
+  {
+    "Crop Name": "Maize",
+    "Soil Factors": {
+      "Soil Type": [
+        "Peaty",
+        "Sandy",
+        "Black Soil",
+        "Red Soil",
+        "Loamy",
+        "Silty",
+        "Sandy Loam",
+        "Chalky",
+        "Clayey",
+        "Silt Loam"
+      ],
+      "Soil pH": {
+        "min": 5.8,
+        "max": 7.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 90,
+          "max": 160
+        },
+        "P": {
+          "min": 60,
+          "max": 80
+        },
+        "K": {
+          "min": 50,
+          "max": 70
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 1,
+          "max": 4
+        },
+        "Zn": {
+          "min": 1.5,
+          "max": 4
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.6
+        },
+        "Mn": {
+          "min": 1.5,
+          "max": 3
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 18,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.2,
+        "max": 1.2
+      },
+      "Soil Drainage": ["Moderate", "Poor", "Excellent", "Good", "Well-drained"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif", "Summer"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 10
+      },
+      "Frost Risk": ["Moderate", "None", "High", "Low", "Severe"],
+      "Wind Speed (km/h)": {
+        "min": 8,
+        "max": 18
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1500,
+        "max": 2100
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 100,
+        "max": 1800
+      },
+      "Slope/Gradient": ["Gentle", "Flat"],
+      "Proximity to Water Bodies": [
+        "Ponds",
+        "None",
+        "Canals",
+        "Rivers",
+        "Groundwater",
+        "Lakes"
+      ],
+      "Flood Risk": ["Moderate", "Low", "None", "High"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": [
+        "Hybrid",
+        "Drought-tolerant",
+        "High-yield",
+        "GMO",
+        "Indigenous"
+      ],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Medium", "Low", "High"],
+      "Pest & Disease Susceptibility": ["Moderate", "Low", "Very High", "High"],
+      "Crop Rotation Compatibility": [
+        "Vegetables",
+        "Legumes",
+        "Cereals",
+        "Oilseeds",
+        "Pulses",
+        "Millets",
+        "Soybean"
+      ]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": [
+        "Sprinkler",
+        "Manual",
+        "Rainfed",
+        "Flood",
+        "Drip",
+        "Surface"
+      ],
+      "Fertilizer Use": [
+        "Biofertilizer",
+        "Vermicompost",
+        "Inorganic",
+        "Organic"
+      ]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["International", "Local", "Export", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1400,
+        "max": 1800
+      },
+      "Labor Availability": ["Machine", "Mixed", "Manual"]
+    }
+  },
+  {
+    "Crop Name": "Soybean",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Silty", "Clayey", "Silt Loam", "Black Soil"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 50,
+          "max": 100
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 60,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 3,
+          "max": 6
+        },
+        "Zn": {
+          "min": 2,
+          "max": 4
+        },
+        "Cu": {
+          "min": 0.3,
+          "max": 0.7
+        },
+        "Mn": {
+          "min": 2,
+          "max": 5
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 20,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Well-drained", "Good", "Moderate"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 15,
+        "max": 35
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 600,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 10
+      },
+      "Frost Risk": ["None", "Low"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1400,
+        "max": 2000
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1200
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["Rivers", "Ponds", "Groundwater"],
+      "Flood Risk": ["Low", "Moderate"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["High-yield", "GMO", "Indigenous", "Drought-tolerant"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["Moderate", "High"],
+      "Crop Rotation Compatibility": ["Wheat", "Maize", "Millets", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler", "Drip"],
+      "Fertilizer Use": ["Organic", "Inorganic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["International", "Local", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 3500,
+        "max": 4500
+      },
+      "Labor Availability": ["Machine", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Cotton",
+    "Soil Factors": {
+      "Soil Type": ["Black Soil", "Loamy", "Clayey", "Sandy Loam"],
+      "Soil pH": {
+        "min": 5.8,
+        "max": 8.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 80,
+          "max": 120
+        },
+        "P": {
+          "min": 50,
+          "max": 70
+        },
+        "K": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.6
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 30,
+        "min": 20,
+        "max": 40
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 12
+      },
+      "Frost Risk": ["None", "Low"],
+      "Wind Speed (km/h)": {
+        "min": 10,
+        "max": 20
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1800,
+        "max": 2500
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["Canals", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["BT Cotton", "Hybrid", "Organic"],
+      "Growth Duration (days)": {
+        "min": 150,
+        "max": 180
+      },
+      "Water Requirements": ["Medium", "High"],
+      "Pest & Disease Susceptibility": ["High", "Very High"],
+      "Crop Rotation Compatibility": ["Wheat", "Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Flood", "Sprinkler"],
+      "Fertilizer Use": ["Inorganic", "Organic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["International", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 5000,
+        "max": 7000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Sugarcane",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Clayey", "Black Soil", "Silty"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 150,
+          "max": 200
+        },
+        "P": {
+          "min": 70,
+          "max": 100
+        },
+        "K": {
+          "min": 100,
+          "max": 150
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 5,
+          "max": 10
+        },
+        "Zn": {
+          "min": 3,
+          "max": 6
+        },
+        "Cu": {
+          "min": 0.5,
+          "max": 1.0
+        },
+        "Mn": {
+          "min": 4,
+          "max": 8
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.5,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 25,
+        "max": 35
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Good", "Well-drained"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 28,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Year-round"],
+      "Rainfall (mm/year)": {
+        "min": 1100,
+        "max": 1500
+      },
+      "Humidity (%)": {
+        "min": 70,
+        "max": 85
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 10
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 2000,
+        "max": 3000
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 800
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["Canals", "Rivers"],
+      "Flood Risk": ["Moderate"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["High-sucrose", "Early-maturing", "Drought-resistant"],
+      "Growth Duration (days)": {
+        "min": 300,
+        "max": 365
+      },
+      "Water Requirements": ["High"],
+      "Pest & Disease Susceptibility": ["High"],
+      "Crop Rotation Compatibility": ["Legumes", "Pulses"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Flood", "Drip"],
+      "Fertilizer Use": ["Inorganic", "Organic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 2500,
+        "max": 3200
+      },
+      "Labor Availability": ["Manual"]
+    }
+  },
+  {
+    "Crop Name": "Potato",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam", "Silty"],
+      "Soil pH": {
+        "min": 5.0,
+        "max": 6.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 100,
+          "max": 150
+        },
+        "P": {
+          "min": 60,
+          "max": 80
+        },
+        "K": {
+          "min": 120,
+          "max": 180
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 3,
+          "max": 6
+        },
+        "Zn": {
+          "min": 2,
+          "max": 4
+        },
+        "Cu": {
+          "min": 0.3,
+          "max": 0.7
+        },
+        "Mn": {
+          "min": 2,
+          "max": 5
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 20,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.2,
+        "max": 0.8
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 18,
+        "min": 10,
+        "max": 25
+      },
+      "Seasons": ["Rabi", "Summer"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["Low", "Moderate"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 2000
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Early-season", "Mid-season", "Late-season"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["High"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1000,
+        "max": 2000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Tomato",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 6.8
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 120,
+          "max": 180
+        },
+        "P": {
+          "min": 60,
+          "max": 90
+        },
+        "K": {
+          "min": 150,
+          "max": 200
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 4,
+          "max": 8
+        },
+        "Zn": {
+          "min": 3,
+          "max": 6
+        },
+        "Cu": {
+          "min": 0.4,
+          "max": 0.8
+        },
+        "Mn": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.5,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 20,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 22,
+        "min": 15,
+        "max": 30
+      },
+      "Seasons": ["Year-round"],
+      "Rainfall (mm/year)": {
+        "min": 600,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 10
+      },
+      "Frost Risk": ["None", "Low"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1500,
+        "max": 2200
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Hybrid", "Cherry", "Heirloom"],
+      "Growth Duration (days)": {
+        "min": 70,
+        "max": 90
+      },
+      "Water Requirements": ["Medium", "High"],
+      "Pest & Disease Susceptibility": ["High", "Very High"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 2000,
+        "max": 4000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Onion",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 80,
+          "max": 120
+        },
+        "P": {
+          "min": 50,
+          "max": 70
+        },
+        "K": {
+          "min": 100,
+          "max": 150
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.5,
+        "max": 3.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 20,
+        "min": 10,
+        "max": 30
+      },
+      "Seasons": ["Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["Low", "Moderate"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1100,
+        "max": 1700
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Red", "White", "Yellow"],
+      "Growth Duration (days)": {
+        "min": 120,
+        "max": 150
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1500,
+        "max": 3000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Chickpea",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam", "Black Soil"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 30,
+          "max": 60
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 20,
+        "min": 10,
+        "max": 30
+      },
+      "Seasons": ["Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 400,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["Low", "Moderate"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 2000
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Desi", "Kabuli"],
+      "Growth Duration (days)": {
+        "min": 120,
+        "max": 150
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Cereals", "Oilseeds"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 4000,
+        "max": 6000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Millet",
+    "Soil Factors": {
+      "Soil Type": ["Sandy", "Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 5.5,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 40,
+          "max": 80
+        },
+        "P": {
+          "min": 30,
+          "max": 50
+        },
+        "K": {
+          "min": 40,
+          "max": 60
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 1,
+          "max": 4
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.1,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 0.8,
+        "max": 2.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 10,
+        "max": 20
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 15,
+        "max": 35
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 300,
+        "max": 600
+      },
+      "Humidity (%)": {
+        "min": 40,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 10
+      },
+      "Frost Risk": ["None", "Low"],
+      "Wind Speed (km/h)": {
+        "min": 10,
+        "max": 20
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1300,
+        "max": 1900
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Pearl", "Finger", "Foxtail"],
+      "Growth Duration (days)": {
+        "min": 80,
+        "max": 120
+      },
+      "Water Requirements": ["Low"],
+      "Pest & Disease Susceptibility": ["Low", "Moderate"],
+      "Crop Rotation Compatibility": ["Legumes", "Oilseeds"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 2000,
+        "max": 3000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Groundnut",
+    "Soil Factors": {
+      "Soil Type": ["Sandy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 5.5,
+        "max": 7.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 30,
+          "max": 60
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1400,
+        "max": 2000
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Bunch", "Runner"],
+      "Growth Duration (days)": {
+        "min": 100,
+        "max": 140
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Cereals", "Millets"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 5000,
+        "max": 7000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Mustard",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam", "Clayey"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 60,
+          "max": 100
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.5,
+        "max": 3.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 20,
+        "min": 10,
+        "max": 30
+      },
+      "Seasons": ["Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 400,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["Low", "Moderate"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Yellow", "Brown"],
+      "Growth Duration (days)": {
+        "min": 100,
+        "max": 140
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Cereals", "Pulses"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 3500,
+        "max": 4500
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Brinjal (Eggplant)",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam", "Clayey"],
+      "Soil pH": {
+        "min": 5.5,
+        "max": 6.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 100,
+          "max": 150
+        },
+        "P": {
+          "min": 60,
+          "max": 80
+        },
+        "K": {
+          "min": 120,
+          "max": 180
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 3,
+          "max": 6
+        },
+        "Zn": {
+          "min": 2,
+          "max": 4
+        },
+        "Cu": {
+          "min": 0.3,
+          "max": 0.7
+        },
+        "Mn": {
+          "min": 2,
+          "max": 5
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 20,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 18,
+        "max": 32
+      },
+      "Seasons": ["Kharif", "Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 600,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1500,
+        "max": 2200
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Round", "Long", "Hybrid"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["High"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1500,
+        "max": 3000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Okra (Lady's Finger)",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 80,
+          "max": 120
+        },
+        "P": {
+          "min": 50,
+          "max": 70
+        },
+        "K": {
+          "min": 100,
+          "max": 150
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.5,
+        "max": 3.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 28,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif", "Summer"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 10
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1600,
+        "max": 2400
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Pusa Sawani", "Arka Anamika", "Hybrid"],
+      "Growth Duration (days)": {
+        "min": 60,
+        "max": 90
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["Moderate", "High"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 2000,
+        "max": 4000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Cabbage",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Silty"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 6.8
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 120,
+          "max": 180
+        },
+        "P": {
+          "min": 60,
+          "max": 90
+        },
+        "K": {
+          "min": 150,
+          "max": 200
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 4,
+          "max": 8
+        },
+        "Zn": {
+          "min": 3,
+          "max": 6
+        },
+        "Cu": {
+          "min": 0.4,
+          "max": 0.8
+        },
+        "Mn": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.5,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 20,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 18,
+        "min": 10,
+        "max": 25
+      },
+      "Seasons": ["Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["Low", "Moderate"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 2000
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Golden Acre", "Pusa Drumhead"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["High"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1000,
+        "max": 2000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Cauliflower",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Silty"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 6.8
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 120,
+          "max": 180
+        },
+        "P": {
+          "min": 60,
+          "max": 90
+        },
+        "K": {
+          "min": 150,
+          "max": 200
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 4,
+          "max": 8
+        },
+        "Zn": {
+          "min": 3,
+          "max": 6
+        },
+        "Cu": {
+          "min": 0.4,
+          "max": 0.8
+        },
+        "Mn": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 2.5,
+        "max": 4.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 20,
+        "max": 30
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.3,
+        "max": 1.0
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 18,
+        "min": 10,
+        "max": 25
+      },
+      "Seasons": ["Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["Low", "Moderate"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1200,
+        "max": 1800
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 2000
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Snowball", "Pusa Early Synthetic"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Medium"],
+      "Pest & Disease Susceptibility": ["High"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Drip", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 1500,
+        "max": 2500
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Green Gram (Moong)",
+    "Soil Factors": {
+      "Soil Type": ["Sandy", "Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 30,
+          "max": 60
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif", "Summer"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1400,
+        "max": 2000
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Pusa Vishal", "Pusa Ratna"],
+      "Growth Duration (days)": {
+        "min": 70,
+        "max": 90
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Cereals", "Oilseeds"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 5000,
+        "max": 7000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Black Gram (Urad)",
+    "Soil Factors": {
+      "Soil Type": ["Sandy", "Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 30,
+          "max": 60
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 600,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1400,
+        "max": 2000
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1000
+      },
+      "Slope/Gradient": ["Flat"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["T9", "Pant U30"],
+      "Growth Duration (days)": {
+        "min": 80,
+        "max": 100
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Cereals", "Oilseeds"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 6000,
+        "max": 8000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Pigeon Pea (Arhar/Toor)",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam", "Black Soil"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 30,
+          "max": 60
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 20,
+        "max": 35
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 600,
+        "max": 1000
+      },
+      "Humidity (%)": {
+        "min": 60,
+        "max": 80
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 6,
+        "max": 8
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 5,
+        "max": 15
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1600,
+        "max": 2200
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1200
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["Pusa 992", "Asha"],
+      "Growth Duration (days)": {
+        "min": 150,
+        "max": 180
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Cereals", "Oilseeds"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional", "Export"],
+      "Market Price (INR/Quintal)": {
+        "min": 7000,
+        "max": 9000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Sunflower",
+    "Soil Factors": {
+      "Soil Type": ["Loamy", "Sandy Loam"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 7.5
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 60,
+          "max": 100
+        },
+        "P": {
+          "min": 50,
+          "max": 70
+        },
+        "K": {
+          "min": 80,
+          "max": 120
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.5,
+        "max": 3.0
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 1.5
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 15,
+        "max": 35
+      },
+      "Seasons": ["Kharif", "Rabi"],
+      "Rainfall (mm/year)": {
+        "min": 500,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 10
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 10,
+        "max": 20
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1500,
+        "max": 2200
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["KBSH 44", "MSFH 17"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 110
+      },
+      "Water Requirements": ["Low", "Medium"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Legumes", "Cereals"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Inorganic"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 4000,
+        "max": 6000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  },
+  {
+    "Crop Name": "Jowar (Sorghum)",
+    "Soil Factors": {
+      "Soil Type": ["Sandy", "Loamy", "Black Soil"],
+      "Soil pH": {
+        "min": 6.0,
+        "max": 8.0
+      },
+      "Macronutrients (N-P-K)": {
+        "N": {
+          "min": 50,
+          "max": 90
+        },
+        "P": {
+          "min": 40,
+          "max": 60
+        },
+        "K": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "Micronutrients": {
+        "Fe": {
+          "min": 2,
+          "max": 5
+        },
+        "Zn": {
+          "min": 1,
+          "max": 3
+        },
+        "Cu": {
+          "min": 0.2,
+          "max": 0.5
+        },
+        "Mn": {
+          "min": 1,
+          "max": 4
+        }
+      },
+      "Organic Matter Content (%)": {
+        "min": 1.0,
+        "max": 2.5
+      },
+      "Soil Moisture Retention Capacity": {
+        "min": 15,
+        "max": 25
+      },
+      "Soil Salinity (EC)": {
+        "min": 0.5,
+        "max": 2.0
+      },
+      "Soil Drainage": ["Well-drained", "Good"]
+    },
+    "Climate & Weather Factors": {
+      "Temperature (°C)": {
+        "avg": 25,
+        "min": 15,
+        "max": 35
+      },
+      "Seasons": ["Kharif"],
+      "Rainfall (mm/year)": {
+        "min": 400,
+        "max": 800
+      },
+      "Humidity (%)": {
+        "min": 50,
+        "max": 70
+      },
+      "Sunlight Exposure (hrs/day)": {
+        "min": 8,
+        "max": 10
+      },
+      "Frost Risk": ["None"],
+      "Wind Speed (km/h)": {
+        "min": 10,
+        "max": 20
+      },
+      "Growing Degree Days (GDD)": {
+        "min": 1400,
+        "max": 2000
+      }
+    },
+    "Geographic & Topographic Factors": {
+      "Altitude (m)": {
+        "min": 0,
+        "max": 1500
+      },
+      "Slope/Gradient": ["Flat", "Gentle"],
+      "Proximity to Water Bodies": ["None", "Groundwater"],
+      "Flood Risk": ["Low"]
+    },
+    "Crop-Specific Factors": {
+      "Crop Variety": ["CSH 16", "CSV 15"],
+      "Growth Duration (days)": {
+        "min": 90,
+        "max": 120
+      },
+      "Water Requirements": ["Low"],
+      "Pest & Disease Susceptibility": ["Moderate"],
+      "Crop Rotation Compatibility": ["Legumes", "Pulses"]
+    },
+    "Agricultural Practices": {
+      "Irrigation Method": ["Rainfed", "Sprinkler"],
+      "Fertilizer Use": ["Organic", "Biofertilizer"]
+    },
+    "Economic & Market Factors": {
+      "Market Demand": ["Local", "Regional"],
+      "Market Price (INR/Quintal)": {
+        "min": 2000,
+        "max": 3000
+      },
+      "Labor Availability": ["Manual", "Mixed"]
+    }
+  }
+]
